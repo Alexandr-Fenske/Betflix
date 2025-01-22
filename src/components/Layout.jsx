@@ -1,17 +1,18 @@
-import { Container } from '@mui/material'
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Navbar from './UI/Navbar'
-import Footer from './UI/Footer'
+import { Container } from '@mui/material';
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+
+import Footer from './UI/Footer';
+import Navbar from './UI/Navbar';
 
 const Layout = () => {
   return (
     <Container fixed>
-      <Navbar/>
+      <Navbar />
       <Outlet />
-      <Footer/>
+      <Footer />
     </Container>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

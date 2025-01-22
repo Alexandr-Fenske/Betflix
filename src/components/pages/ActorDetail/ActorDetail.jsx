@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const ActorDetail = () => {
-  return (
-    <div>
-      ActorDetail
-    </div>
-  )
-}
+  return <div>ActorDetail</div>;
+};
 
-export default ActorDetail
+export default ActorDetail;
