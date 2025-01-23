@@ -13,7 +13,7 @@ export const kinopoiskApi = createApi({
   }),
   endpoints: builder => ({
     getFilmsTop: builder.query({
-      query: (type, page) =>
+      query: ({ type, page }) =>
         `/v2.2/films/collections?type=${type}&page=${page}`,
     }),
   }),
