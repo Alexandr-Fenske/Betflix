@@ -10,7 +10,7 @@ const initialState = {
 };
 
 export const currentQuerySlice = createSlice({
-  name: 'counter',
+  name: 'currentQuerySlice',
   initialState,
   reducers: {
     //  TODO add actions

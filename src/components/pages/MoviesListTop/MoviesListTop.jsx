@@ -1,11 +1,10 @@
+import { TOP_LISTS } from '@/../constants';
+import MoviesList from '@/components/UI/MoviesList';
+import { useGetFilmsTopQuery } from '@/services/kinopoiskAPI';
 import { ArrowBack } from '@mui/icons-material';
 import { Button, Stack, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-
-import { TOP_LISTS } from '../../../../constants';
-import { useGetFilmsTopQuery } from '../../../services/kinopoiskAPI';
-import MoviesList from '../../UI/MoviesList';
 
 const MoviesListTop = () => {
   const location = useLocation();
